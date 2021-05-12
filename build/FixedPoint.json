@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220fc4cafe32a4bde6602c596fd9075db8fef68988b48520ba9c70b6ef8344aaa6f64736f6c634300060a0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xFC 0x4C 0xAF 0xE3 0x2A 0x4B 0xDE PUSH7 0x2C596FD9075DB DUP16 0xEF PUSH9 0x988B48520BA9C70B6E 0xF8 CALLVALUE 0x4A 0xAA PUSH16 0x64736F6C634300060A00330000000000 ",
+      "sourceMap": "207:2636:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220fc4cafe32a4bde6602c596fd9075db8fef68988b48520ba9c70b6ef8344aaa6f64736f6c634300060a0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xFC 0x4C 0xAF 0xE3 0x2A 0x4B 0xDE PUSH7 0x2C596FD9075DB DUP16 0xEF PUSH9 0x988B48520BA9C70B6E 0xF8 CALLVALUE 0x4A 0xAA PUSH16 0x64736F6C634300060A00330000000000 ",
+      "sourceMap": "207:2636:23:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.10+commit.00c0fcaf\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/utils/FixedPoint.sol\":\"FixedPoint\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/math/SafeMath.sol\":{\"keccak256\":\"0xd4b1686c1494213666dc1423cea64333c3063f334327216d69ca3d59f75a2517\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3a3c967dc005a8966266b6052724b7cd04231c6d95abcc03f49e1cbb9ffb890a\",\"dweb:/ipfs/QmRWofmmac5HLRYpMTDQLzmgZyJYeYLB2MY8uTFRKfJuJL\"]},\"contracts/utils/FixedPoint.sol\":{\"keccak256\":\"0x5a493ea52df15d6ef4d35444f50d6e27b3b6d43483f4369c6c18fbe1424b56f8\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://06cbbdbad000874cc9e1b9c14a6bdc9b28434d37e68e82368b02eaef610ca1b8\",\"dweb:/ipfs/QmdGya2WxhDVL2BMjzxkfbtQsfZeqgCvaRiSRcrCCp99oW\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220fc4cafe32a4bde6602c596fd9075db8fef68988b48520ba9c70b6ef8344aaa6f64736f6c634300060a0033"
+}

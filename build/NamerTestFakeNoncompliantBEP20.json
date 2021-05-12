@@ -1,0 +1,63 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "name_",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "symbol_",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "608060405234801561001057600080fd5b506040516100ea3803806100ea8339818101604052604081101561003357600080fd5b5080516020909101516000919091556001556097806100536000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea264697066735822122036d516dd177e8f06ecddaeab318d3b9565e587fa9bfc40cc8bf0922e595b5add64736f6c634300060a0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0xEA CODESIZE SUB DUP1 PUSH2 0xEA DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x33 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP DUP1 MLOAD PUSH1 0x20 SWAP1 SWAP2 ADD MLOAD PUSH1 0x0 SWAP2 SWAP1 SWAP2 SSTORE PUSH1 0x1 SSTORE PUSH1 0x97 DUP1 PUSH2 0x53 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6FDDE03 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x95D89B41 EQ PUSH1 0x4F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x55 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x1 SLOAD DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLDATASIZE 0xD5 AND 0xDD OR PUSH31 0x8F06ECDDAEAB318D3B9565E587FA9BFC40CC8BF0922E595B5ADD64736F6C63 NUMBER STOP MOD EXP STOP CALLER ",
+      "sourceMap": "843:207:12:-:0;;;942:106;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;942:106:12;;;;;;;1003:4;:12;;;;1025:6;:16;843:207;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea264697066735822122036d516dd177e8f06ecddaeab318d3b9565e587fa9bfc40cc8bf0922e595b5add64736f6c634300060a0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6FDDE03 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x95D89B41 EQ PUSH1 0x4F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x55 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x1 SLOAD DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLDATASIZE 0xD5 AND 0xDD OR PUSH31 0x8F06ECDDAEAB318D3B9565E587FA9BFC40CC8BF0922E595B5ADD64736F6C63 NUMBER STOP MOD EXP STOP CALLER ",
+      "sourceMap": "843:207:12:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;889:19;;;:::i;:::-;;;;;;;;;;;;;;;;914:21;;;:::i;889:19::-;;;;:::o;914:21::-;;;;:::o"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.10+commit.00c0fcaf\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"name_\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"symbol_\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/test/SafeBEP20NamerTest.sol\":\"NamerTestFakeNoncompliantBEP20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/test/SafeBEP20NamerTest.sol\":{\"keccak256\":\"0x988a577166e74357c5f4661c6e5e46802d350c29851775ae17c0c207412f5759\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://e35db4ebcab85c26dab7a43e1ace0cd1ae05522980e725630e6e979f96f55e2c\",\"dweb:/ipfs/QmUeauS4yyuvM5MEJVkwxCkV9UR93p3o1SJMBaCBNnTfzy\"]},\"contracts/utils/AddressStringUtil.sol\":{\"keccak256\":\"0x1edf9591b1858ce9093a4baaf816280d92bd1441e911a82bf509b8d2bb3195ce\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://bb7600744f3ce303df65f763ad7eec56223b9687e19476d992b95ccaf45eaf99\",\"dweb:/ipfs/QmPHDpxSbifD4ThEmM5hZoyfd9K9NMg9k6WZvFhFSFK42w\"]},\"contracts/utils/SafeBEP20Namer.sol\":{\"keccak256\":\"0x566750e474d50e29054d57e68f2ae3d55283a4894136e38d2cc84375162c104d\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://5dee176a3c6e50cabc210dd7fdd868bfe6ff9743b157613bee7a8739c0baf487\",\"dweb:/ipfs/QmetZQ7VxtcjZrXDKhstmaYE7nGPGs7bdFj33jBBpCstiP\"]}},\"version\":1}",
+  "bytecode": "608060405234801561001057600080fd5b506040516100ea3803806100ea8339818101604052604081101561003357600080fd5b5080516020909101516000919091556001556097806100536000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea264697066735822122036d516dd177e8f06ecddaeab318d3b9565e587fa9bfc40cc8bf0922e595b5add64736f6c634300060a0033"
+}

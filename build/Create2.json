@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206e079088bbcaa060d01af862d0d4da9d7268d7c307cdd571c88d1df56ef08ada64736f6c634300060a0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH15 0x79088BBCAA060D01AF862D0D4DA9D PUSH19 0x68D7C307CDD571C88D1DF56EF08ADA64736F6C PUSH4 0x4300060A STOP CALLER ",
+      "sourceMap": "428:2050:21:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206e079088bbcaa060d01af862d0d4da9d7268d7c307cdd571c88d1df56ef08ada64736f6c634300060a0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH15 0x79088BBCAA060D01AF862D0D4DA9D PUSH19 0x68D7C307CDD571C88D1DF56EF08ADA64736F6C PUSH4 0x4300060A STOP CALLER ",
+      "sourceMap": "428:2050:21:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.10+commit.00c0fcaf\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Helper to make usage of the `CREATE2` EVM opcode easier and safer. `CREATE2` can be used to compute in advance the address where a smart contract will be deployed, which allows for interesting new mechanisms known as 'counterfactual interactions'. See the https://eips.ethereum.org/EIPS/eip-1014#motivation[EIP] for more information.\",\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/utils/Create2.sol\":\"Create2\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/utils/Create2.sol\":{\"keccak256\":\"0x7776200d34f4a5f67cd0f095a928dcf920ad9eac294015effe07876737b0c2a1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5fbbc04b7ee748f6c21bdee82022aa84a8a853c5c1f830bd009d80bc98a4a629\",\"dweb:/ipfs/QmZ2ZCNggh7PkC5uCsueyp19wQzFkcHSq6mWPUwTch5Vrs\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212206e079088bbcaa060d01af862d0d4da9d7268d7c307cdd571c88d1df56ef08ada64736f6c634300060a0033"
+}

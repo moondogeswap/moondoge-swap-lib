@@ -13,7 +13,7 @@ Run `yarn test` to execute the test suite.
 
 ## Usage
 
-Install this in another project via `moondoge-swap-lib` 
+Install this in another project via `yarn add moondoge-swap-lib` 
 
 Then import the contracts via:
 

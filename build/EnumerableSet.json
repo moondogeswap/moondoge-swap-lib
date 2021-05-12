@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212203f6784557806021a45e0b982b70cb4997ecc4bb39bec6a0eb86dd22e6834c57164736f6c634300060a0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EXTCODEHASH PUSH8 0x84557806021A45E0 0xB9 DUP3 0xB7 0xC 0xB4 SWAP10 PUSH31 0xCC4BB39BEC6A0EB86DD22E6834C57164736F6C634300060A00330000000000 ",
+      "sourceMap": "724:7101:22:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212203f6784557806021a45e0b982b70cb4997ecc4bb39bec6a0eb86dd22e6834c57164736f6c634300060a0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EXTCODEHASH PUSH8 0x84557806021A45E0 0xB9 DUP3 0xB7 0xC 0xB4 SWAP10 PUSH31 0xCC4BB39BEC6A0EB86DD22E6834C57164736F6C634300060A00330000000000 ",
+      "sourceMap": "724:7101:22:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.10+commit.00c0fcaf\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Library for managing https://en.wikipedia.org/wiki/Set_(abstract_data_type)[sets] of primitive types. Sets have the following properties: - Elements are added, removed, and checked for existence in constant time (O(1)). - Elements are enumerated in O(n). No guarantees are made on the ordering. ``` contract Example {     // Add the library methods     using EnumerableSet for EnumerableSet.AddressSet;     // Declare a set state variable     EnumerableSet.AddressSet private mySet; } ``` As of v3.0.0, only sets of type `address` (`AddressSet`) and `uint256` (`UintSet`) are supported.\",\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/utils/EnumerableSet.sol\":\"EnumerableSet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/utils/EnumerableSet.sol\":{\"keccak256\":\"0xa9db049e03d23b9c2b29524cd252cd2bc757570de61ba32e9ded5ad39666ca51\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fcff08f5bf62a241bc29eb78fd4054f7b88e32e5aa9fc9fe190bf85e2d2196a7\",\"dweb:/ipfs/QmcZoqB8YsdSFk7FNbZE4PddHSN9AwoTUu6S4SwMYtkWBG\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212203f6784557806021a45e0b982b70cb4997ecc4bb39bec6a0eb86dd22e6834c57164736f6c634300060a0033"
+}
